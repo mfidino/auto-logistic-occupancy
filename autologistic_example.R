@@ -6,6 +6,7 @@
 #
 ################################################
 
+# load packaages
 library(runjags)
 library(mcmcplots)
 
@@ -17,6 +18,7 @@ nyear <- 8
 ncovar <- 3
 nrepeats <- 5
 
+# for covariates
 X <- matrix(
   NA,
   ncol = ncovar,
